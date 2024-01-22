@@ -1,0 +1,24 @@
+import java.util.*;
+public class UserINput {
+    public static void main(String[] args) {
+        Scanner s1 = new Scanner(System.in);
+        System.out.println("enter  number1 :");
+        int num1=s1.nextInt();
+        System.out.println("enter a number2 :");
+        int num2=s1.nextInt();
+
+
+        System.out.println("enter your name : ");
+        String str= s1.nextLine();
+
+        int sum=num1+num2;
+
+
+        System.out.println(sum);
+        System.out.println(str);
+
+
+
+
+    }
+}
